@@ -54,7 +54,7 @@ namespace Assignment_1
             Console.WriteLine("Can vote = " + canVote);
 
            
-            // Below not part of assignment, just trying different responses
+            //  Below not part of assignment, just trying different responses 
 
 
             int yearsToVote = 18 - age;

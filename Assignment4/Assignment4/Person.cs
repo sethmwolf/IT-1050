@@ -126,7 +126,7 @@ namespace Assignment4
             GroupTotalCost += GroupPopcorn * Prices.Popcorn;
             GroupTotalCost += GroupCandy * Prices.Candy;
 
-            System.Console.WriteLine(Environment.NewLine + "The total cost of your group before discounts is $" + GroupTotalCost);
+            System.Console.WriteLine(Environment.NewLine + "The total cost of your group before discounts is $" + GroupTotalCost.ToString("0.00"));
         }
         
     }

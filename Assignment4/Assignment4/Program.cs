@@ -81,7 +81,7 @@ namespace Assignment4
 
                //Display the total cost of the person's ticket and food before discounts
                 
-                System.Console.WriteLine("The total price for  " + Group[X].Name + " is $" + Group[X].TotalIndividualCost + " before discounts.");
+                System.Console.WriteLine("The total price for  " + Group[X].Name + " is $" + Group[X].TotalIndividualCost.ToString("0.00") + " before discounts.");
 
                
                 X++;
@@ -145,7 +145,7 @@ namespace Assignment4
             {
 
                 System.Console.Write(Environment.NewLine + "You have earned a discount of $" + Discount);
-                System.Console.Write(Environment.NewLine + "Your group's new total cost is $" + (Person.GroupTotalCost - Discount));
+                System.Console.Write(Environment.NewLine + "Your group's new total cost is $" + (Person.GroupTotalCost - Discount).ToString("0.00"));
 
             }
 
